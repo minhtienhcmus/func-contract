@@ -1,0 +1,11 @@
+int op::withdraw() asm "0x855511cc PUSHINT";
+int op::change_owner() asm "0x21746f75 PUSHINT";
+int op::change_monitor() asm "0xa81f6ff3 PUSHINT";
+int op::claim_token_remain() asm "0x4b237977 PUSHINT";
+int op::add_aff_user() asm "0xab418819 PUSHINT";
+int op::jetton_transfer() asm "0x0f8a7ea5 PUSHINT";
+int op::stop_campaign() asm "0x4aa61b24 PUSHINT";
+int op::pause_campaign() asm "0x578403ed PUSHINT";
+int op::restart_campaign() asm "0x1ef0720a PUSHINT";
+int op::add_reward_user() asm "0xfc889398 PUSHINT";
+int op::add_reward_airdrop() asm "0x4df6b26f PUSHINT";
